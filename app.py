@@ -2,9 +2,12 @@ import streamlit as st
 import random
 
 # Configuración de la página
-st.set_page_config(page_title="Ecuaciones de Primer Grado", page_icon="🧮")
+st.set_page_config(page_title="Practica Ecuaciones") #, page_icon="🧮")
 
-st.title("🧮 Generador de Ecuaciones de Primer Grado")
+st.title("🧮 Repaso de la clase Ecuaciones de Primer Grado")
+
+st.info("Captura la pantalla y adjunta en la plataforma")
+
 
 # Función para generar ecuaciones tipo ax + b = c
 def generar_ecuacion():
